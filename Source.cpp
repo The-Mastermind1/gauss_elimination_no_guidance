@@ -24,7 +24,7 @@ int main() {
 			b.push_back(element);
 	}
 
-	for (size_t k = 0; k < a.size()-1; k++) {
+	for (size_t k = 0; k < a.size(); k++) {
 		if (a[k][k] == 0) {
 			std::cout << "error\n";
 			std::exit(EXIT_FAILURE);
