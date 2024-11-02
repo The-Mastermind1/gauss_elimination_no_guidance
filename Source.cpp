@@ -45,7 +45,7 @@ int main() {
 	}
 	printmatrix(a, b);//after forward substitution
 	if (a[a.size() - 1][a.size() - 1]) {
-		std::cout << "erro\n";
+		std::cout << "error\n";
 		std::exit(EXIT_FAILURE);
 	}
 	std::vector <double>x(size);
