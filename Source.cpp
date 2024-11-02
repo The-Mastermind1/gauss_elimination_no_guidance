@@ -44,7 +44,7 @@ int main() {
 
 	}
 	printmatrix(a, b);//after forward substitution
-	if (a[a.size() - 1][a.size() - 1]) {
+	if (a[a.size() - 1][a.size() - 1]==0) {
 		std::cout << "error\n";
 		std::exit(EXIT_FAILURE);
 	}
