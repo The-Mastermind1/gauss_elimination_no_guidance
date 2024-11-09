@@ -2,8 +2,8 @@
 
 int main() {
 
-	
-	std::cout << "give a  size\n";
+using std::vector;	
+std::cout << "give a  size\n";
 std::size_t size;
 std::cin >> size;
 assert(size > 0,"size must be >0");
@@ -18,7 +18,7 @@ for (size_t i = 0; i < a.size(); i++) {
 
 	}
 }
-vector<vector<double>>u = a;
+std::vector<std::vector<double>>u = a;
 std::cout << "elements for b\n";
 for (size_t i = 0; i < a.size(); i++) {
 	double element;
@@ -50,7 +50,7 @@ if (a[a.size() - 1][a.size() - 1] == 0) {
 	std::cout << "error\n";
 	std::exit(EXIT_FAILURE);
 }
-std::vector <double>x(size);
+std::vector<double>x(size);
 //backwards substitution:
 for (size_t k = a.size() - 1; k > 0; k--) {
 
