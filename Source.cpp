@@ -70,7 +70,7 @@ while (k == 0) {
 	}
 
 	x[k] = x[k] / a[k][k];
-	k = 5;
+	break;
 }
 
 
