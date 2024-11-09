@@ -1,8 +1,7 @@
 #include"Header.h"
 
 int main() {
-
-using std::vector;	
+	
 std::cout << "give a  size\n";
 std::size_t size;
 std::cin >> size;
