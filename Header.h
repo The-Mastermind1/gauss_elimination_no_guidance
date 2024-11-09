@@ -24,7 +24,7 @@ inline void printsolution(const std::vector<double>& a) {
     }
     return;
 }
-inline void verification(const vector<vector<double>>& a, const vector<double>& b) {
+inline void verification(const std::vector<std::vector<double>>& a, const std::vector<double>& b) {
     cout << "verification:\n";
     for (int i = 0; i < a.size(); i++) {
         double s = 0;
